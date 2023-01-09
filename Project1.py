@@ -76,7 +76,7 @@ def password_check(password):
         print('length should be not be greater than 15')
         val = False
     if not any(char.isdigit() for char in password):
-        print('Password should have at least one numeral')
+        print('Password should have at least one number')
         val = False
     if not any(char.isupper() for char in password):
         print('Password should have at least one uppercase letter')
